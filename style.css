@@ -1,0 +1,177 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+header {
+  background-image: url("./image/anhbia.jpg");
+  background-size: contain;
+  position: relative;
+  height: 100px;
+  color: rgb(5, 5, 5);
+}
+
+header span {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+header h3 {
+  position: absolute;
+  left: 40%;
+  top: 30px;
+}
+
+.search {
+  position: relative;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.search input {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.search-field span {
+  border-right: 2px solid;
+  margin-left: -30px;
+}
+
+.search-icon {
+  position: absolute;
+  right: 45px;
+  top: 10px;
+}
+
+.tt {
+  height: 100%;
+  background: rgba(60, 86, 28, 1);
+}
+
+ul li {
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 47px;
+  border-radius: 15px;
+  background: #403dd6;
+  margin-bottom: 35px;
+}
+
+/* 
+    ul li a {
+        color: white;
+    }
+
+    ul li a:hover {
+        color: red;
+    } */
+
+/* Thiết lập các giá trị mặc định cho trang */
+
+/* Thiết lập thanh điều hướng dọc */
+.vertical-nav {
+  background: rgba(65, 203, 170, 1);
+  width: 300px;
+  /* Điều chỉnh độ rộng của thanh điều hướng theo ý muốn */
+  height: 100%;
+  /* Chiều cao full height */
+  position: fixed;
+  /* Giữ thanh điều hướng cố định trên trang */
+}
+
+/* Định dạng danh sách menu và liên kết */
+.vertical-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.vertical-nav li {
+  padding: 10px;
+}
+
+.vertical-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+}
+
+.full-screen-form {
+  background-image: url("./image/anh6.jpg");
+  background-size: auto;
+  width: 90%;
+  /* Chiều rộng full màn hình */
+  height: 100%;
+  /* Chiều cao full màn hình */
+  /* display: flex; */
+
+  position: fixed;
+  margin-left: 300px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+}
+.doctor {
+  width: 100px;
+  height: 100px;
+}
+
+/* Định dạng các phần tử trong biểu mẫu */
+.full-screen-form div {
+  margin: 5px;
+  padding: 10px;
+}
+
+.full-screen-form input {
+  width: 326px;
+  height: 33px;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+h4 {
+  font-size: 1rem;
+}
+button {
+  background-color: #403dd6;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  float: left;
+  color: #fff;
+  margin-left: 100px;
+}
